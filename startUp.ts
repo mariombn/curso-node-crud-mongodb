@@ -1,7 +1,7 @@
 import * as express from 'express';
 import * as BodyParser from 'body-parser';
-import DataBase from "./infra/dataBase";
-import NewsController from "./controller/newsController";
+import DataBase from "./src/infra/dataBase"
+import NewsController from "./src/controller/newsController";
 
 class StartUp {
     public app: express.Application;
